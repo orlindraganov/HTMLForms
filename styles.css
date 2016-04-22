@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 table.InputForm {
     border: 1px solid black;
     border-spacing: 0px;    
@@ -12,4 +13,8 @@ td.Left {
 }
 td.SubmitClearButtons {
     background-color: darkseagreen
+=======
+form.InputForm {
+    
+>>>>>>> 0910dbc98c01d76a068d43f831ec8a2ae7df3228
 }
