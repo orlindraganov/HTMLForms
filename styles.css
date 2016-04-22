@@ -17,6 +17,19 @@ td.Left {
 input.PhoneCode{
     width: 20%;
 }
+#Address {
+    width: 30em;
+    height: 3em;
+    resize: none;
+}
+#Comments {
+    width: 30em;
+    height: 5em;
+    resize: none;
+}
+#Email {
+    width: 30em;
+}
 #StateReq {
     width: 15%;
     font-weight: bold;
@@ -37,4 +50,57 @@ table.UniversityTable, table.UniversityTable td {
 }
 th.UniversityTH {
     border: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+table.NotebookStore {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+table.NotebookStore th {
+    padding: 10px;  
+}
+table.NotebookStore thead{
+    text-align: center;
+    font-size: x-large;
+    border-bottom: 2px solid black;
+}
+td.ProductList {
+    padding: 10px;
+    border: 2px solid black;
+}
+table.Catalogue img {
+    width: 140px;
+}
+table.NotebookStore a:link {
+    color: lightskyblue;
+}
+table.NotebookStore a:visited {
+    color: rebeccapurple;
+}
+table.NotebookStore a:active {
+    color: skyblue;
+}
+table.Catalogue legend {
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: large;
+}
+table.ProductInfo {
+    border: 0px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: large;
+}
+table.ProductInfo td {
+    border: 0px;
+    font-family: Verdana, Geneva, Tahoma sans-serif;
+    font-size: large;
+height: 33%;
+}
+td.Preferencies {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    padding: 20px;
+    line-height: 200%;
 }
