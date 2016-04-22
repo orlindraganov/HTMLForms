@@ -2,20 +2,20 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="sample-form.html" />
+    <link rel="stylesheet" href="styles.css" />
     <meta charset="UTF-8">
     <title>Last Name</title>
 </head>
 
 <body>
-    <form>
+    <form class="InputForm" method="POST">
         <table>
             <tr>
                 <td>
                     <label for="LastName">Last Name</label>
                 </td>
                 <td>
-                    <input type="text" id="LastName" value="Todorov" />
+                    <input type="text" id="LastName" />
                 </td>
             </tr>
             <tr>
@@ -23,7 +23,7 @@
                     <label for="FirstName">First Name</label>
                 </td>
                 <td>
-                    <input type="text" id="FirstName" value="Toshko" />
+                    <input type="text" id="FirstName" />
                 </td>
             </tr>
             <tr>
@@ -32,7 +32,6 @@
                 </td>
                 <td>
                     <textarea id="Address">
-                        22 Acacia Avenue, floor 87, apt. 523
                     </textarea>
                 </td>
             </tr>
@@ -41,13 +40,13 @@
                     <label for="City">City</label>
                 </td>
                 <td>
-                    <input type="text" id="City" value="Angrydogville" />
+                    <input type="text" id="City" />
                 </td>
                 <td>
                     <label for="State">State</label>
                 </td>
                 <td>
-                    <input type="text" id="State" value="" />
+                    <input type="text" id="State" />
                 </td>
             </tr>
             <tr>
@@ -55,7 +54,7 @@
                     <label for="Zip">Zip/Postal Code</label>
                 </td>
                 <td>
-                    <input type="text" id="Zip" value="6314" maxlength="9" />
+                    <input type="text" id="Zip" maxlength="9" />
                 </td>
             </tr>
             <tr>
@@ -313,9 +312,9 @@
                 </td>
                 <td>
                     (+
-                    <input type="tel" id="PhoneCodeInt" maxlength="5" value="359" /> )
-                    <input type="tel" maxlength="10" value="88" /> -
-                    <input type="tel" maxlength="10" value="8334343" />
+                    <input type="tel" id="PhoneCodeInt" maxlength="5" /> )
+                    <input type="tel" maxlength="10" /> -
+                    <input type="tel" maxlength="10" />
                 </td>
             </tr>
             <tr>
@@ -323,7 +322,7 @@
                     <label for="Email">E-mail</label>
                 </td>
                 <td>
-                    <input type="Email" id="Email" value="toshko.todorov@mnooqkemail.com" />
+                    <input type="Email" id="Email" />
                 </td>
             </tr>
             <tr>
@@ -365,7 +364,13 @@
                     <label for="Comments" />Comments/Questions</label>
                 </td>
                 <td>
-<!-- TEXTAREA GOES HERE -->
+                    <textarea></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="SubmitClearButtons">    
+                    <input type="submit" value="Submit" />
+                    <input type="reset" value="Clear This Form" />
                 </td>
             </tr>
         </table>
