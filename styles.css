@@ -1,20 +1,28 @@
-<<<<<<< HEAD
 table.InputForm {
+    width: 600px;
     border: 1px solid black;
     border-spacing: 0px;    
 }
 table.InputForm td {
+    padding: 5px;
     border: 1px solid black;
     border-spacing: 0px;
 }
 td.Left {
+    width: 30%;
     font-weight: bold;
     text-align: right;
 }
-td.SubmitClearButtons {
-    background-color: darkseagreen
-=======
-form.InputForm {
-    
->>>>>>> 0910dbc98c01d76a068d43f831ec8a2ae7df3228
+#StateReq {
+    width: 15%;
+    font-weight: bold;
+    text-align: center;
+}
+#SubmitClearButtons {
+    background-color: darkseagreen;
+    text-align: center;
+}
+#SubmitClearButtons input {
+    margin-left: 5px;
+    margin-right: 5px;
 }

@@ -8,46 +8,41 @@
 </head>
 
 <body>
-<<<<<<< HEAD
     <form method="POST">
         <table class="InputForm">
-=======
-    <form class="InputForm" method="POST">
-        <table>
->>>>>>> 0910dbc98c01d76a068d43f831ec8a2ae7df3228
             <tr>
-                <td>
+                <td class="Left">
                     <label for="LastName">Last Name</label>
                 </td>
-                <td>
+                <td colspan="3">
                     <input type="text" id="LastName" />
                 </td>
             </tr>
             <tr>
-                <td>
+                <td class="Left">
                     <label for="FirstName">First Name</label>
                 </td>
-                <td>
+                <td colspan="3">
                     <input type="text" id="FirstName" />
                 </td>
             </tr>
             <tr>
-                <td>
+                <td class="Left">
                     <label for="Address">Address</label>
                 </td>
-                <td>
+                <td colspan="3">
                     <textarea id="Address">
                     </textarea>
                 </td>
             </tr>
             <tr>
-                <td>
+                <td class="Left">
                     <label for="City">City</label>
                 </td>
                 <td>
                     <input type="text" id="City" />
                 </td>
-                <td>
+                <td id="StateReq">
                     <label for="State">State</label>
                 </td>
                 <td>
@@ -55,18 +50,18 @@
                 </td>
             </tr>
             <tr>
-                <td>
+                <td class="Left">
                     <label for="Zip">Zip/Postal Code</label>
                 </td>
-                <td>
+                <td colspan="3">
                     <input type="text" id="Zip" maxlength="9" />
                 </td>
             </tr>
             <tr>
-                <td>
+                <td class="Left">
                     <label for="CountriesList">Country</label>
                 </td>
-                <td>
+                <td colspan="3">
                     <select id="CountriesList">
                         <option selected>(please select a country)</option>
                         <option value="AF">Afghanistan</option>
@@ -312,10 +307,10 @@
                 </td>
             </tr>
             <tr>
-                <td>
+                <td class="Left">
                     <label for="PhoneCodeInt">Phone (country code, area code, number)</label>
                 </td>
-                <td>
+                <td colspan="3">
                     (+
                     <input type="tel" id="PhoneCodeInt" maxlength="5" /> )
                     <input type="tel" maxlength="10" /> -
@@ -323,18 +318,18 @@
                 </td>
             </tr>
             <tr>
-                <td>
+                <td class="Left">
                     <label for="Email">E-mail</label>
                 </td>
-                <td>
+                <td colspan="3">
                     <input type="Email" id="Email" />
                 </td>
             </tr>
             <tr>
-                <td>
+                <td class="Left">
                     <label for="BirthMonth">Birth Date</label>
                 </td>
-                <td>
+                <td colspan="3">
                     <label for="BirthMonth">Month</label>
                     <input type="number" min="01" max="12" id="BirthMonth" />
                     <label for="BirthDay">Day</label>
@@ -344,20 +339,21 @@
                 </td>
             </tr>
             <tr>
-                <td>
+                <td class="Left">
                     <label for="gender">Gender</label>
-                    <td>
-                        <select id="gender">
-                            <option selected></option>
-                            <option value="Male">Male</option>
-                            <option value="Female">Female</option>
-                            <option value="Other">Other</option>
-                        </select>
-                    </td>
+                </td>
+                <td colspan="3">
+                    <select id="gender">
+                        <option selected>(please select gender)</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </td>
             </tr>
             <tr>
-                <td>Starting date</td>
-                <td>
+                <td class="Left">Starting date</td>
+                <td colspan="3">
                     <input type="radio" id="Spring2006" name="StartingDate" value="Spring2006" />
                     <label for="Spring2006">Spring 2006</label>
                     <input type="radio" id="Summer2006" name="StartingDate" value="Summer2006" />
@@ -365,15 +361,15 @@
                 </td>
             </tr>
             <tr>
-                <td>
-                    <label for="Comments" />Comments/Questions</label>
+                <td class="Left">
+                    <label for="Comments">Comments/Questions</label>
                 </td>
-                <td>
-                    <textarea></textarea>
+                <td colspan="3">
+                    <textarea id="Comments"></textarea>
                 </td>
             </tr>
             <tr>
-                <td colspan="2" class="SubmitClearButtons">    
+                <td colspan="4" id="SubmitClearButtons">
                     <input type="submit" value="Submit" />
                     <input type="reset" value="Clear This Form" />
                 </td>
